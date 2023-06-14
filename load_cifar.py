@@ -70,6 +70,3 @@ def load_cifar(label_size=10):
     if label_size == 10:
         return load_cifar10()
 
-
-if __name__ == '__main__':
-    pass
